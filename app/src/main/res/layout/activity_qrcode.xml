@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/neirong"
+        android:padding="5dp"
+        android:background="@drawable/edit_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:hint="请输入二维码的内容" />
+    <Button
+        android:id="@+id/shengcheng"
+        android:text="生成二维码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <WebView
+        android:id="@+id/erweima"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

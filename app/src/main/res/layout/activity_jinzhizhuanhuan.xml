@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2进制" />
+
+        <RadioButton
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8进制" />
+
+        <RadioButton
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10进制" />
+
+        <RadioButton
+            android:id="@+id/sixteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16进制" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/shuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:hint="请输入要转换的数字"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/zhuanhuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转换" />
+
+    <RadioGroup
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2进制" />
+
+        <RadioButton
+            android:id="@+id/eighth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8进制" />
+
+        <RadioButton
+            android:id="@+id/tenth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10进制" />
+
+        <RadioButton
+            android:id="@+id/sixteenth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16进制" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/jieguo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:hint="转换结果为:              "
+        android:padding="5dp" />
+
+
+</LinearLayout>
